@@ -1,0 +1,549 @@
+.top-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('public/images/banner.png');
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    display: flex;
+    color: white;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+}
+
+.top-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 1.3em;
+    border-style: solid;
+    border-color: #FFFFFF;
+    padding: 15px 0px 0px 0px;
+    background-color: #030303;
+    border-width: 4px 4px 4px 4px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.pdt {
+    padding-top: 20px;
+}
+
+.sub-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-top: 35px;
+    line-height: 1.3em;
+    font-family: "Hind Siliguri",
+}
+
+.logo-top {
+    margin-top: 30px;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.order-btn-c {
+    font-family: "Hind Siliguri",
+        Sans-serif;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    border-style: solid;
+    text-decoration: none;
+    background-color: #FF7400;
+    padding: 20px 50px 20px 50px;
+    border-width: 4px 4px 4px 4px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.order-btn-c:hover {
+    background-color: #028309;
+}
+
+.order-btn-d {
+    font-family: "Hind Siliguri",
+        Sans-serif;
+    color: #fff;
+    border-color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    border-style: solid;
+    text-decoration: none;
+    background-color: #FF7400;
+    padding: 20px 50px 20px 50px;
+    border-width: 4px 4px 4px 4px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.order-btn-d:hover {
+    background-color: #028309;
+}
+
+
+.top-title-b {
+    font-size: 32px;
+    font-weight: 700;
+    width: 40%;
+    color: #FFFFFF;
+    line-height: 1.3em;
+    border-style: solid;
+    padding: 15px 0px 0px 0px;
+    background-color: #030303;
+    /* border-width: 4px 4px 4px 4px; */
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.seb-title {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 1px 0px;
+    background-color: #4C677CAD;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.border-a {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s,
+        border 0.3s,
+        border-radius 0.3s,
+        box-shadow 0.3s;
+    padding: 30px 10px 0px 10px;
+
+}
+
+.tx-c {
+    text-align: center;
+    font-family: "Hind Siliguri",
+        Sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.tx-d {
+    text-align: center;
+    font-family: "Hind Siliguri",
+        Sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+}
+
+.tx-e {
+    color: #000000;
+    font-family: "Hind Siliguri",
+        Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+}
+
+.check-mark {
+    color: green;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.pd-b {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pd-bc {
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+}
+
+.pd-v {
+    padding-top: 30px;
+    padding-bottom: 17px;
+    height: 75vh;
+    width: 100%;
+}
+
+.pd {
+    padding-top: 37px;
+}
+
+.pd-c {
+    padding-top: 37px;
+}
+
+.pd-cd {
+    padding-top: 37px;
+    /* padding-bottom: 560px; */
+}
+
+.clb-g {
+    background-color: #2C8A982B;
+    padding-top: 10px;
+    height: 565px;
+}
+
+.clb {
+    background-color: #2C8A982B;
+    padding-top: 10px;
+}
+
+.clb-size {
+    background-color: #2C8A982B;
+    padding-top: 40px;
+}
+
+.pd-bt {
+    padding-bottom: 80px;
+}
+
+.bgc {
+    background-color: #2C8A982B;
+}
+
+.title-d {
+    padding: 15px 0px 10px 0px;
+    background-color: #4C677CAD;
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: #000000;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    text-align: center;
+    color: #000000;
+    font-family: "Hind Siliguri",
+        Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.title-e {
+
+    padding: 15px 0px 10px 0px;
+    background-color: #4C677CAD;
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: #000000;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    text-align: center;
+    color: #000000;
+    font-family: "Hind Siliguri",
+        Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.title-h {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 1px 0px;
+    background-color: #4C677CAD;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.se-img {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s,
+        border 0.3s,
+        border-radius 0.3s,
+        box-shadow 0.3s;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+}
+
+.tx-p {
+    color: #000000;
+    font-family: "Hind Siliguri",
+        Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    padding-left: 10px;
+}
+
+.img-lf {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.img-lf-size {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.sp {
+    color: #fff;
+}
+
+
+.card-bx {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    padding: 15px;
+}
+
+.ard-bx {
+    width: 25%;
+}
+
+.dis-d {
+    margin: 0;
+    color: #000000;
+    font-family: "Hind Siliguri",
+        Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    box-sizing: border-box;
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.crd {
+    padding: 20px 5px 20px 5px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.crt {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s,
+        border 0.3s,
+        border-radius 0.3s,
+        box-shadow 0.3s;
+
+
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.ct-a {
+    /* position: relative; */
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
+    background-color: #CEC7DFAD;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.ct-b {
+    /* position: relative; */
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
+    background-color: #CEC7DFAD;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.p-cp {
+    padding: 40px 0px 40px 0px;
+}
+
+.prc {
+    padding: 12px 0px 8px 0px;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #000000;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+}
+
+.card-image {
+    width: 22%;
+    margin-bottom: 10px;
+    /* display: inline-block; */
+    /* margin: 0; */
+}
+
+.sec-4 {
+    /* padding: 10px; */
+    padding: 42px 5px 20px 5px;
+}
+
+.sec-or {
+    padding: 40px;
+}
+
+.title-size {
+    padding: 12px 0px 8px 0px;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #000000;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.order-form {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s,
+        border 0.3s,
+        border-radius 0.3s,
+        box-shadow 0.3s;
+    padding: 30px 30px 30px 30px;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    display: flex;
+}
+
+.order-title {
+   
+    padding: 15px 0px 10px 0px;
+    background-color: #007F0A;
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: #000000;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.dg-title {
+    color: #FFFFFF;
+    font-family: "Hind Siliguri",
+        Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title-oc {
+    font-size: 1.1em;
+    font-weight: bolder;
+    overflow: hidden;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.card-a {
+        background-color: #f7f7f7;
+        border: 1px solid #b0b0b0;
+        padding: 20px 30px;
+        margin: 0 10px 22px;
+        border-radius: 0.35em;
+        width: calc(50% - 20px);
+        font-size: 1em;
+        font-weight: 600;
+        cursor: pointer;
+        position: relative;
+}
+
+.input-a {
+        border-radius: 50%;
+        border: 1px solid #b4b9be;
+        background: #fff;
+        color: #555;
+        clear: none;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 0;
+        height: 16px;
+        margin: -4px 4px 0 0;
+        outline: 0;
+        padding: 0 !important;
+        text-align: center;
+        vertical-align: middle;
+        width: 16px;
+        min-width: 16px;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+        transition: 0.05s border-color ease-in-out;
+}
+.img-v {
+    margin-right: 15px;
+    width: 80px;
+}
+
+
+/* .slider-img {
+    height: 400px;
+    background-color: #ddd;
+}
+
+.card-section {
+    margin: 40px 0;
+} */
+
+/* .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+} */
+
+/* .order-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+/* .order-btn:hover {
+    background-color: #0056b3;
+}
+
+.form-section {
+    padding: 50px 0;
+}
+
+.order-form {
+    max-width: 600px;
+    margin: 0 auto;
+} */
+
+/* order form */
