@@ -502,6 +502,16 @@
   justify-content: center;
 }
 
+.tx-r {
+    color: #ff0000;
+    font-weight: 600;
+  }
+  
+  .tx-bl {
+    color: #000000;
+    font-weight: 700;
+  }
+
 @media (max-width: 575px) {
   .rs {
     width: 300px;
@@ -578,22 +588,85 @@
   .tdr {
     padding: 0px 20px 0px 20px;
   }
+
+
+
+
+
 }
 
-.tx-r {
-  color: #ff0000;
-  font-weight: 600;
+
+
+@media (max-width: 320px){
+    
+
+.border-sec {
+    width: 300px;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    border-width: 2px 2px 2px 2px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .title-sec {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    border-style: solid;
+    box-sizing: border-box;
+    border-color: #000000;
+    background-color: green;
+    font-family: "Hind Siliguri", Sans-serif;
+    font-size: 12px !important;
+    font-weight: bold;
+    padding: 15px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+    border-width: 4px 4px 4px 4px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .demo-card {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    margin: 0px 0px 0px 0px;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    
+  }
+
 }
 
-.tx-bl {
-  color: #000000;
-  font-weight: 700;
-}
 
-/* Checkout-css */
-/* Checkout-css */
 
-.sa-border {
+
+
+
+
+
+
+
+/* bill-section */
+
+.body-field {
+    background-color: #ffeffa6b;
+  }
+  
+ 
+
+  .bill-dtl {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 10px 20px 10px;
+  }
+
+
+.border-sec {
+    width: 100%;
   border-style: solid;
   border-radius: 30px;
   padding: 20px 20px 20px 20px;
@@ -601,7 +674,7 @@
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.title-sa {
+.title-sec {
   height: 60px;
   width: 100%;
   text-align: center;
@@ -628,13 +701,6 @@
   
 }
 
-
-
-.bill-dtl {
-  margin: 0px 0px 0px 0px;
-  padding: 20px 10px 20px 10px;
-  background-color: #fcf3f96b;
-}
 
 .dash {
   border: 0 none;
@@ -699,47 +765,7 @@ input:focus {
   font-size: 11px;
 }
 
-/* ulcheckmark */
 
-ul.checkmark li {
-  font-size: 14px;
-  margin-top: 1rem;
-  margin-bottom: 1em;
-  list-style-type: none;
-  padding: 0.15em 0 0 2.5em;
-  position: relative;
-}
-
-ul.checkmark li:before {
-  content: " ";
-  display: block;
-  border: solid 0.6em rgb(255, 128, 0);
-  border-radius: 0.6em;
-  height: 0;
-  width: 0;
-  position: absolute;
-  left: 0.5em;
-  top: 45%;
-  margin-top: -0.5em;
-}
-ul.checkmark li:after {
-  content: " ";
-  display: block;
-  width: 0.3em;
-  height: 0.6em;
-  border: solid #fff;
-  border-width: 0 0.2em 0.2em 0;
-  position: absolute;
-  left: 1em;
-  top: 40%;
-  margin-top: -0.2em;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-/* ulcheckmark */
 
 
 :root {
@@ -841,648 +867,7 @@ ul.checkmark li:after {
     border-bottom-right-radius: 25px;
 }
 
-.body-field {
-  background-color: #fcf3f96b;
-}
 
-@media (max-width: 320px) {
-  .container {
-    max-width: 320px;
-  }
 
-  .sa-border {
-    width: 290px;
-    border-style: solid;
-    border-radius: 30px;
-    padding: 20px 20px 20px 20px;
-    border-width: 2px 2px 2px 2px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  }
 
-  .title-sa {
-    height: 60px;
-    width: 100%;
-    text-align: center;
-    color: whitesmoke;
-    border-style: solid;
-    box-sizing: border-box;
-    border-color: #000000;
-    background-color: green;
-    font-family: "Hind Siliguri", Sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 15px 0px 10px 0px;
-    margin: 10px 0px 10px 0px;
-    border-width: 3px 3px 3px 3px;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  }
-  
-  
-  .demo-card {
-    font-size: 10px;
-    margin: 0px 0px 0px 0px;
-    padding: 20px 10px 20px 10px;
-    background-color: #fff;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  }
 
-  .bill-dtl {
-    margin: 0px 0px 0px 0px;
-    padding: 20px 10px 20px 10px;
-    background-color: #fff;
-  }
-
-  .dash {
-    border: 0 none;
-    border-top: 2px dashed #322f32;
-    background: none;
-    height: 0;
-  }
-
-  .quantity {
-    display: flex;
-    border-radius: 4px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .quantity button {
-    background-color: #ffffff;
-    color: #a1a1a1;
-    border: 1px solid rgb(173, 171, 171);
-    cursor: pointer;
-    font-size: 20px;
-    width: 30px;
-    height: auto;
-    text-align: center;
-    transition: background-color 0.2s;
-  }
-
-  .quantity button:hover {
-    background-color: #3498db;
-    color: #ffffff;
-  }
-
-  .input-box {
-    width: 50px;
-    text-align: center;
-    border: none;
-    padding: 8px 10px;
-    font-size: 16px;
-    outline: none;
-  }
-
-  /* Hide the number input spin buttons */
-  .input-box::-webkit-inner-spin-button,
-  .input-box::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-
-  .input-box[type="number"] {
-    -moz-appearance: textfield;
-  }
-
-  ::-webkit-input-placeholder {
-    font-size: 12px;
-  }
-  .form-text {
-    font-size: 11px;
-  }
-
-  /* ulcheckmark */
-
-  ul.checkmark li {
-    font-size: 14px;
-    margin-top: 1rem;
-    margin-bottom: 1em;
-    list-style-type: none;
-    padding: 0.15em 0 0 2.5em;
-    position: relative;
-  }
-
-  ul.checkmark li:before {
-    content: " ";
-    display: block;
-    border: solid 0.6em rgb(255, 128, 0);
-    border-radius: 0.6em;
-    height: 0;
-    width: 0;
-    position: absolute;
-    left: 0.5em;
-    top: 45%;
-    margin-top: -0.5em;
-  }
-  ul.checkmark li:after {
-    content: " ";
-    display: block;
-    width: 0.3em;
-    height: 0.6em;
-    border: solid #fff;
-    border-width: 0 0.2em 0.2em 0;
-    position: absolute;
-    left: 1em;
-    top: 40%;
-    margin-top: -0.2em;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-
-  /* ulcheckmark */
-  :root {
-    accent-color: rgb(255, 94, 0);
-  }
-  
-  [type="radio"] {
-    font-size: inherit;
-    width: 0.95em;
-    height: 0.95em;
-  }
-
-  .triangle-top-left-2 {
-    position: relative;
-    left: 5%;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 20px 20px 0;
-
-    border-color: transparent transparent rgba(213, 213, 213, 0.71) transparent;
-  }
-
-  .pop {
-    display: flex;
-    background-color: rgba(213, 213, 213, 0.71);
-    box-shadow: 0 2px 4px rgba(112, 112, 112, 0.541);
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-  }
-
-  .btn-warning {
-    background-color: ;
-    box-shadow: 0 2px 4px rgba(199, 126, 0, 0.751);
-    height: 50px;
-  }
-
-  .coupon-field {
-    background-color: transparent;
-    background-image: url(https://wp-themes.com/wp-content/themes/twentythirteen/images/search-icon.png);
-    background-position: 5px center;
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-    border: none;
-    cursor: pointer;
-    height: 40px;
-    margin: 3px 0;
-    padding: 0 0 0 34px;
-    position: relative;
-    -webkit-transition: width 400ms ease, background 400ms ease;
-    transition: width 400ms ease, background 400ms ease;
-    width: 0px;
-    cursor: pointer;
-  }
-
-  .coupon-field:focus {
-    background-color: #e4b9b9;
-    border: 2px solid #626262;
-    cursor: text;
-    outline: 0;
-    width: 250px;
-    color: #ff8400;
-  }
-  .search-form .search-submit {
-    display: none;
-  }
-}
-
-@media (max-width: 575px) {
-  .container {
-    max-width: 575px;
-  }
-
-  .sa-border {
-    width: 500px;
-    border-style: solid;
-    border-radius: 30px;
-    padding: 20px 20px 20px 20px;
-    border-width: 2px 2px 2px 2px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  }
-
-  .title-sa {
-    height: 60px;
-    width: 100%;
-    text-align: center;
-    color: whitesmoke;
-    border-style: solid;
-    box-sizing: border-box;
-    border-color: #000000;
-    background-color: green;
-    font-family: "Hind Siliguri", Sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 15px 0px 10px 0px;
-    margin: 10px 0px 10px 0px;
-    border-width: 4px 4px 4px 4px;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  }
-
-  .demo-card {
-    margin: 0px 0px 0px 0px;
-    padding: 20px 10px 20px 10px;
-    background-color: #fff;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  }
-
-  .bill-dtl {
-    margin: 0px 0px 0px 0px;
-    padding: 20px 10px 20px 10px;
-    background-color: #fff;
-  }
-
-  .dash {
-    border: 0 none;
-    border-top: 2px dashed #322f32;
-    background: none;
-    height: 0;
-  }
-
-  .quantity {
-    display: flex;
-    border-radius: 4px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .quantity button {
-    background-color: #ffffff;
-    color: #a1a1a1;
-    border: 1px solid rgb(173, 171, 171);
-    cursor: pointer;
-    font-size: 20px;
-    width: 30px;
-    height: auto;
-    text-align: center;
-    transition: background-color 0.2s;
-  }
-
-  .quantity button:hover {
-    background-color: #3498db;
-    color: #ffffff;
-  }
-
-  .input-box {
-    width: 50px;
-    text-align: center;
-    border: none;
-    padding: 8px 10px;
-    font-size: 16px;
-    outline: none;
-  }
-
-  /* Hide the number input spin buttons */
-  .input-box::-webkit-inner-spin-button,
-  .input-box::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-
-  .input-box[type="number"] {
-    -moz-appearance: textfield;
-  }
-
-  ::-webkit-input-placeholder {
-    font-size: 12px;
-  }
-  .form-text {
-    font-size: 11px;
-  }
-
-  /* ulcheckmark */
-
-  ul.checkmark li {
-    font-size: 14px;
-    margin-top: 1rem;
-    margin-bottom: 1em;
-    list-style-type: none;
-    padding: 0.15em 0 0 2.5em;
-    position: relative;
-  }
-
-  ul.checkmark li:before {
-    content: " ";
-    display: block;
-    border: solid 0.6em rgb(255, 128, 0);
-    border-radius: 0.6em;
-    height: 0;
-    width: 0;
-    position: absolute;
-    left: 0.5em;
-    top: 45%;
-    margin-top: -0.5em;
-  }
-  ul.checkmark li:after {
-    content: " ";
-    display: block;
-    width: 0.3em;
-    height: 0.6em;
-    border: solid #fff;
-    border-width: 0 0.2em 0.2em 0;
-    position: absolute;
-    left: 1em;
-    top: 40%;
-    margin-top: -0.2em;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-
-  /* ulcheckmark */
-  :root {
-    accent-color: rgb(255, 94, 0);
-  }
-  
-  [type="radio"] {
-    font-size: inherit;
-    width: 0.95em;
-    height: 0.95em;
-  }
-
-  .triangle-top-left-2 {
-    position: relative;
-    left: 5%;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 20px 20px 0;
-
-    border-color: transparent transparent rgba(213, 213, 213, 0.71) transparent;
-  }
-
-  .pop {
-    display: flex;
-    background-color: rgba(213, 213, 213, 0.71);
-    box-shadow: 0 2px 4px rgba(112, 112, 112, 0.541);
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-  }
-
-  .btn-warning {
-    box-shadow: 0 2px 4px rgba(199, 126, 0, 0.751);
-    height: 50px;
-  }
-
-  .coupon-field {
-    background-color: transparent;
-    background-image: url(https://wp-themes.com/wp-content/themes/twentythirteen/images/search-icon.png);
-    background-position: 5px center;
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-    border: none;
-    cursor: pointer;
-    height: 40px;
-    margin: 3px 0;
-    padding: 0 0 0 34px;
-    position: relative;
-    -webkit-transition: width 400ms ease, background 400ms ease;
-    transition: width 400ms ease, background 400ms ease;
-    width: 0px;
-    cursor: pointer;
-  }
-
-  .coupon-field:focus {
-    background-color: #e4b9b9;
-    border: 2px solid #626262;
-    cursor: text;
-    outline: 0;
-    width: 250px;
-    color: #ff8400;
-  }
-  .search-form .search-submit {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-
-  .sa-border {
-    width: 700px;
-    border-style: solid;
-    border-radius: 30px;
-    padding: 20px 20px 20px 20px;
-    border-width: 2px 2px 2px 2px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  }
-
-  .title-sa {
-    height: 60px;
-    width: 100%;
-    text-align: center;
-    color: whitesmoke;
-    border-style: solid;
-    box-sizing: border-box;
-    border-color: #000000;
-    background-color: green;
-    font-family: "Hind Siliguri", Sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 15px 0px 10px 0px;
-    margin: 10px 0px 10px 0px;
-    border-width: 4px 4px 4px 4px;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  }
-
-  .demo-card {
-    margin: 0px 0px 0px 0px;
-    padding: 20px 10px 20px 10px;
-    background-color: #fff;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  }
-
-  .bill-dtl {
-    margin: 0px 0px 0px 0px;
-    padding: 20px 10px 20px 10px;
-    background-color: #fff;
-  }
-
-  .dash {
-    border: 0 none;
-    border-top: 2px dashed #322f32;
-    background: none;
-    height: 0;
-  }
-
-  .quantity {
-    display: flex;
-    border-radius: 4px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .quantity button {
-    background-color: #ffffff;
-    color: #a1a1a1;
-    border: 1px solid rgb(173, 171, 171);
-    cursor: pointer;
-    font-size: 20px;
-    width: 30px;
-    height: auto;
-    text-align: center;
-    transition: background-color 0.2s;
-  }
-
-  .quantity button:hover {
-    background-color: #3498db;
-    color: #ffffff;
-  }
-
-  .input-box {
-    width: 50px;
-    text-align: center;
-    border: none;
-    padding: 8px 10px;
-    font-size: 16px;
-    outline: none;
-  }
-
-  /* Hide the number input spin buttons */
-  .input-box::-webkit-inner-spin-button,
-  .input-box::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-
-  .input-box[type="number"] {
-    -moz-appearance: textfield;
-  }
-
-  ::-webkit-input-placeholder {
-    font-size: 12px;
-  }
-  .form-text {
-    font-size: 11px;
-  }
-
-  /* ulcheckmark */
-
-  ul.checkmark li {
-    font-size: 14px;
-    margin-top: 1rem;
-    margin-bottom: 1em;
-    list-style-type: none;
-    padding: 0.15em 0 0 2.5em;
-    position: relative;
-  }
-
-  ul.checkmark li:before {
-    content: " ";
-    display: block;
-    border: solid 0.6em rgb(255, 128, 0);
-    border-radius: 0.6em;
-    height: 0;
-    width: 0;
-    position: absolute;
-    left: 0.5em;
-    top: 45%;
-    margin-top: -0.5em;
-  }
-  ul.checkmark li:after {
-    content: " ";
-    display: block;
-    width: 0.3em;
-    height: 0.6em;
-    border: solid #fff;
-    border-width: 0 0.2em 0.2em 0;
-    position: absolute;
-    left: 1em;
-    top: 40%;
-    margin-top: -0.2em;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-
-  /* ulcheckmark */
-  :root {
-    accent-color: rgb(255, 94, 0);
-  }
-  
-  [type="radio"] {
-    font-size: inherit;
-    width: 0.95em;
-    height: 0.95em;
-  }
-
-  .triangle-top-left-2 {
-    position: relative;
-    left: 5%;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 20px 20px 0;
-
-    border-color: transparent transparent rgba(213, 213, 213, 0.71) transparent;
-  }
-
-  .pop {
-    display: flex;
-    background-color: rgba(213, 213, 213, 0.71);
-    box-shadow: 0 2px 4px rgba(112, 112, 112, 0.541);
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-  }
-
-  .btn-warning {
-    box-shadow: 0 2px 4px rgba(199, 126, 0, 0.751);
-    height: 50px;
-  }
-
-  .coupon-field {
-    background-color: transparent;
-    background-image: url(https://wp-themes.com/wp-content/themes/twentythirteen/images/search-icon.png);
-    background-position: 5px center;
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-    border: none;
-    cursor: pointer;
-    height: 40px;
-    margin: 3px 0;
-    padding: 0 0 0 34px;
-    position: relative;
-    -webkit-transition: width 400ms ease, background 400ms ease;
-    transition: width 400ms ease, background 400ms ease;
-    width: 0px;
-    cursor: pointer;
-  }
-
-  .coupon-field:focus {
-    background-color: #e4b9b9;
-    border: 2px solid #626262;
-    cursor: text;
-    outline: 0;
-    width: 250px;
-    color: #ff8400;
-  }
-  .search-form .search-submit {
-    display: none;
-  }
-}
