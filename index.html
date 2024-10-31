@@ -202,7 +202,7 @@
 
 
     
-    <section>
+    <section class="body-field">
         <div class="container mt-5 ct-title ">
           
             <div class="sa-border">
@@ -212,33 +212,29 @@
                     </div>
                 </div>
 
-                <div class="cust-zone pt-3" >
-                    <ul class="checkmark">
-                        <li>Customer matched zone "Locations not covered by your other zones"</li>
-                        <li>Customer matched zone "Locations not covered by your other zones"</li>
-                    </ul>
-                </div>
-
-
                 <div><h6 class="fw-bold pt-3">সাইজ সিলেক্ট করুনঃ</h6></div>
     
-                <div class="row">
+                <div class="row pt-3">
                    
-                    <div class="col-md-6 mb-4">
-                        <div class="card">
-                            <div class="demo-card d-flex gap-3">
+                    <div class="col-md-6 mb-4" class="card">
+                        <div class="card-each">
+                            <div class="demo-card d-flex gap-3" name="radios">
                                 <div>
-                                    <input class="form-check-input"  type="radio" name="btn-radio"/>
+                                    <input type="radio" name="radios" checked>
                                     <img src="public/images/cr-a.png" alt="" width="60px" height="60px" />
                                 </div>
                                 
                                 <div>
                                     <span>ANON Leather Price King Sandal S110 (Size-5/39)</span>
                                     <div class="d-flex gap-3 align-items-center">
-                                           <div class="quantity">
-                                            <button class="minus" aria-label="Decrease">&minus;</button>
-                                            <input type="number" class="input-box" value="1" min="1" max="10">
-                                            <button class="plus" aria-label="Increase">&plus;</button>
+                                        <div class="wrapper">
+                                            <button class="btn-pls btn--minus" @click="changeCounter('-1')" type="button" name="button">
+                                            -
+                                            </button>
+                                            <input class="quantity" type="text" name="name" :value="counter">
+                                            <button class="btn-mns btn--plus" @click="changeCounter('1')" type="button" name="button">
+                                              +
+                                            </button>
                                           </div>
                                         <div>1,150.00৳</div>
                                     </div>
@@ -250,17 +246,21 @@
                         <div class="card">
                             <div class="demo-card d-flex gap-3">
                                 <div>
-                                    <input class="form-check-input"  type="radio" name="btn-radio"/>
+                                    <input type="radio" name="radios" checked>
                                     <img src="public/images/cr-a.png" alt="" width="60px" height="60px" />
                                 </div>
                                 
                                 <div>
                                     <span>ANON Leather Price King Sandal S110 (Size-5/39)</span>
                                     <div class="d-flex gap-3 align-items-center">
-                                           <div class="quantity">
-                                            <button class="minus" aria-label="Decrease">&minus;</button>
-                                            <input type="number" class="input-box" value="1" min="1" max="10">
-                                            <button class="plus" aria-label="Increase">&plus;</button>
+                                        <div class="wrapper">
+                                            <button class="btn-pls btn--minus" @click="changeCounter('-1')" type="button" name="button">
+                                            -
+                                            </button>
+                                            <input class="quantity" type="text" name="name" :value="counter">
+                                            <button class="btn-mns btn--plus" @click="changeCounter('1')" type="button" name="button">
+                                              +
+                                            </button>
                                           </div>
                                         <div>1,150.00৳</div>
                                     </div>
@@ -272,17 +272,21 @@
                         <div class="card">
                             <div class="demo-card d-flex gap-3">
                                 <div>
-                                    <input class="form-check-input"  type="radio" name="btn-radio"/>
+                                    <input type="radio" name="radios" checked>
                                     <img src="public/images/cr-a.png" alt="" width="60px" height="60px" />
                                 </div>
                                 
                                 <div>
                                     <span>ANON Leather Price King Sandal S110 (Size-5/39)</span>
                                     <div class="d-flex gap-3 align-items-center">
-                                           <div class="quantity">
-                                            <button class="minus" aria-label="Decrease">&minus;</button>
-                                            <input type="number" class="input-box" value="1" min="1" max="10">
-                                            <button class="plus" aria-label="Increase">&plus;</button>
+                                        <div class="wrapper">
+                                            <button class="btn-pls btn--minus" @click="changeCounter('-1')" type="button" name="button">
+                                            -
+                                            </button>
+                                            <input class="quantity" type="text" name="name" :value="counter">
+                                            <button class="btn-mns btn--plus" @click="changeCounter('1')" type="button" name="button">
+                                              +
+                                            </button>
                                           </div>
                                         <div>1,150.00৳</div>
                                     </div>
@@ -294,17 +298,21 @@
                         <div class="card">
                             <div class="demo-card d-flex gap-3">
                                 <div>
-                                    <input class="form-check-input"  type="radio" name="btn-radio"/>
+                                    <input type="radio" name="radios" checked>
                                     <img src="public/images/cr-a.png" alt="" width="60px" height="60px" />
                                 </div>
                                 
                                 <div>
                                     <span>ANON Leather Price King Sandal S110 (Size-5/39)</span>
                                     <div class="d-flex gap-3 align-items-center">
-                                           <div class="quantity">
-                                            <button class="minus" aria-label="Decrease">&minus;</button>
-                                            <input type="number" class="input-box" value="1" min="1" max="10">
-                                            <button class="plus" aria-label="Increase">&plus;</button>
+                                        <div class="wrapper">
+                                            <button class="btn-pls btn--minus" @click="changeCounter('-1')" type="button" name="button">
+                                            -
+                                            </button>
+                                            <input class="quantity" type="text" name="name" :value="counter">
+                                            <button class="btn-mns btn--plus" @click="changeCounter('1')" type="button" name="button">
+                                              +
+                                            </button>
                                           </div>
                                         <div>1,150.00৳</div>
                                     </div>
@@ -316,17 +324,21 @@
                         <div class="card">
                             <div class="demo-card d-flex gap-3">
                                 <div>
-                                    <input class="form-check-input"  type="radio" name="btn-radio"/>
+                                    <input type="radio" name="radios" checked>
                                     <img src="public/images/cr-a.png" alt="" width="60px" height="60px" />
                                 </div>
                                 
                                 <div>
                                     <span>ANON Leather Price King Sandal S110 (Size-5/39)</span>
                                     <div class="d-flex gap-3 align-items-center">
-                                           <div class="quantity">
-                                            <button class="minus" aria-label="Decrease">&minus;</button>
-                                            <input type="number" class="input-box" value="1" min="1" max="10">
-                                            <button class="plus" aria-label="Increase">&plus;</button>
+                                        <div class="wrapper">
+                                            <button class="btn-pls btn--minus" @click="changeCounter('-1')" type="button" name="button">
+                                            -
+                                            </button>
+                                            <input class="quantity" type="text" name="name" :value="counter">
+                                            <button class="btn-mns btn--plus" @click="changeCounter('1')" type="button" name="button">
+                                              +
+                                            </button>
                                           </div>
                                         <div>1,150.00৳</div>
                                     </div>
@@ -338,17 +350,21 @@
                         <div class="card">
                             <div class="demo-card d-flex gap-3">
                                 <div>
-                                    <input class="form-check-input"  type="radio" name="btn-radio"/>
+                                    <input type="radio" name="radios" checked>
                                     <img src="public/images/cr-a.png" alt="" width="60px" height="60px" />
                                 </div>
                                 
                                 <div>
                                     <span>ANON Leather Price King Sandal S110 (Size-5/39)</span>
                                     <div class="d-flex gap-3 align-items-center">
-                                           <div class="quantity">
-                                            <button class="minus" aria-label="Decrease">&minus;</button>
-                                            <input type="number" class="input-box" value="1" min="1" max="10">
-                                            <button class="plus" aria-label="Increase">&plus;</button>
+                                        <div class="wrapper">
+                                            <button class="btn-pls btn--minus" @click="changeCounter('-1')" type="button" name="button">
+                                            -
+                                            </button>
+                                            <input class="quantity" type="text" name="name" :value="counter">
+                                            <button class="btn-mns btn--plus" @click="changeCounter('1')" type="button" name="button">
+                                              +
+                                            </button>
                                           </div>
                                         <div>1,150.00৳</div>
                                     </div>
@@ -386,11 +402,6 @@
                                     </div>
                                     
                                     
-                            
-                                   <p>
-                                    Country/Region * <br>
-                                    <h6>Bangladesh</h6>
-                                    </p>
                                         
                                 </form>
                             </div>
@@ -419,19 +430,19 @@
                                     <span>1,150.00৳ </span>
                                 </div><br>
 
-                               
+                                <hr class="dash" />
 
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div>Shipping</div>
                                         <div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="radef" >
+                                                <input type="radio" name="radios-op" checked>
                                                 <label class="form-check-label">
                                                     Outside Dhaka
                                                 </label>
                                               </div>
                                               <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="radef" >
+                                                <input type="radio" name="radios-op" checked>
                                                 <label class="form-check-label">
                                                     Inside Dhaka
                                                 </label>
@@ -453,8 +464,8 @@
                                     <form id='buttonWithText' onSubmit={this.onSubmit}>
                                         <div id='slider' class='collapsed'>
                                           <input class="txt-input" type='button' id='toggle' value='Have a coupon ?'>
-                                          <input class="aft-input" type='text' id='input' tabindex='-1' placeholder='Coupon Number' size=12>
-                                          <input type='submit' id='ok' tabindex='-1' value='Submit'>
+                                          <input class="aft-input" type='text' id='input' tabindex='-1' placeholder='Coupon Number' size=8>
+                                          <input class="copn-submt" type='submit' id='ok' tabindex='-1' value='Submit'>
                                         </div>
                                     </form>
                                 </div>
