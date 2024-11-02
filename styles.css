@@ -629,16 +629,19 @@
   }
   
   .demo-card {
-    height: 150px;
+    height: 120px;
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     margin: 0px 0px 0px 0px;
     background-color: #fff;
     border-radius: 10px 10px 10px 10px;
     
   }
+
+  
+  
 
 }
 
@@ -778,7 +781,11 @@ input:focus {
   height: 0.95em;
 }
 
-
+.select-item{
+  display: flex;
+  gap: 5px;
+  
+}
 
 
 .triangle-top-left-2 {
