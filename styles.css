@@ -1038,8 +1038,7 @@ input:focus {
 .pop {
   display: flex;
   background-color: rgba(213, 213, 213, 0.71);
-  box-shadow: 0 2px 4px rgba(112, 112, 112, 0.541);
-  height: 50px;
+  height: 55px;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
@@ -1116,8 +1115,25 @@ input:focus {
   background-color: orange;
   height: 55px;
   border-radius: 5px;
+  border: none;
 }
 
+.footer-sec{
+  height: 150px;
+ 
+}
 
+.footer-middle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;          
+  height: 100px;
+  width: 300px;
+}
+
+.centered-text {
+  font-size: 18px;
+  color: #ffffff;
+}
 
 
